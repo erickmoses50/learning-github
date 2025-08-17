@@ -1,0 +1,7 @@
+my_list = [ ]
+my_list.extend([10,20,30,40])
+my_list.insert(1,15)
+my_list.extend([50,60,70])
+my_list.pop() #OR del my_list[-1] OR my_list = my_list[:-1]
+new_list = sorted(my_list)
+print(new_list.index(30))
